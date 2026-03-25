@@ -14,22 +14,22 @@ cask "terranoodle" do
   on_macos do
     on_intel do
       url "https://github.com/dangernoodle-io/terranoodle/releases/download/v#{version}/terranoodle_#{version}_darwin_amd64.zip"
-      sha256 "afa8b2679e63795e25d891ae8c8eb66e5df3316e1f611e6c6921aec26a75e2d3"
+      sha256 "4e0df112b475bfe073f2e5cdbd3b26c1fc1c02916a9692649e6b428a55ad4175"
     end
     on_arm do
       url "https://github.com/dangernoodle-io/terranoodle/releases/download/v#{version}/terranoodle_#{version}_darwin_arm64.zip"
-      sha256 "f726fdddfbec7bef03d50455830377c3a5594b3fe379f2af29f7239a6b179ea4"
+      sha256 "81050e878e2c16d8143be9abc1b1467866006b2cd1ccb4d86443ba51a0ff331c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dangernoodle-io/terranoodle/releases/download/v#{version}/terranoodle_#{version}_linux_amd64.tar.gz"
-      sha256 "ff777866c067ca7d3cfb64707b4f0741850b2dfcf4dd6c4cf3610f3f73202901"
+      sha256 "6c90737d0ec06b924c13ee5bd51d93f0db7c3c4c8697442c6be143c785075bc8"
     end
     on_arm do
       url "https://github.com/dangernoodle-io/terranoodle/releases/download/v#{version}/terranoodle_#{version}_linux_arm64.tar.gz"
-      sha256 "6e1e7b2db14a4dd09506e675458b455cd652d2236701afa4020fd3ac944dd77a"
+      sha256 "99f9678b71d79e9e78ef47582ce5401563b7c256d70bed57bb4c6241af3d6ed7"
     end
   end
 
