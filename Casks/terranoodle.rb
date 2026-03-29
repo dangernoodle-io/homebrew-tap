@@ -3,7 +3,7 @@ cask "terranoodle" do
   name "terranoodle"
   desc "Useful cli tools for OpenTofu, Terraform, and Terragrunt"
   homepage "https://github.com/dangernoodle-io/terranoodle"
-  version "0.5.0"
+  version "0.6.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "terranoodle" do
   on_macos do
     on_intel do
       url "https://github.com/dangernoodle-io/terranoodle/releases/download/v#{version}/terranoodle_#{version}_darwin_amd64.zip"
-      sha256 "b03bc0fcba919a91f0cd37f388669d09424252d975f06df4634ace94851753be"
+      sha256 "bda742aa9faab891d9d279ef37639f094492d45d2fcdaabad6dd265edc967d08"
     end
     on_arm do
       url "https://github.com/dangernoodle-io/terranoodle/releases/download/v#{version}/terranoodle_#{version}_darwin_arm64.zip"
-      sha256 "5e3dd37743fbcd4e114d3b96dc3e7cf5b930f3d8ff97993117d1d6da2400dc52"
+      sha256 "49cc783689b423d70d32bd27ef075adbcf64c792f7b8eb5c325fcf3e5285a90b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dangernoodle-io/terranoodle/releases/download/v#{version}/terranoodle_#{version}_linux_amd64.tar.gz"
-      sha256 "a67d39468ad01a9ffe002bf881b9eaac2579c646d35b2d31f2c081b7de3c02cd"
+      sha256 "dbf260a626c440278d97679f0410993573c627ff8a177a4021c4b5acd46670e8"
     end
     on_arm do
       url "https://github.com/dangernoodle-io/terranoodle/releases/download/v#{version}/terranoodle_#{version}_linux_arm64.tar.gz"
-      sha256 "d727762198a17bc11dd4f94d9d86f04cb324c2cae6b9511a6c14c9d7366cc7a8"
+      sha256 "6ed2218d272edba4fefc94ece1688b3ab3bc043c74ed352b54b825f9ef980ac1"
     end
   end
 
