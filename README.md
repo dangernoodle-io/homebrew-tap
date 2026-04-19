@@ -16,8 +16,8 @@ Then install any cask below.
 
 | Cask | Description | Upstream | Install |
 |------|-------------|----------|---------|
-| `breadboard` | Embedded development MCP server (serial, ESP-IDF, decode) | [dangernoodle-io/breadboard](https://github.com/dangernoodle-io/breadboard) | `brew install --cask dangernoodle-io/tap/breadboard` |
 | `ouroboros` | MCP server for project knowledge base | [dangernoodle-io/ouroboros](https://github.com/dangernoodle-io/ouroboros) | `brew install --cask dangernoodle-io/tap/ouroboros` |
+| `pogopin` | Embedded development MCP server (serial, ESP-IDF, decode) | [dangernoodle-io/pogopin](https://github.com/dangernoodle-io/pogopin) | `brew install --cask dangernoodle-io/tap/pogopin` |
 | `terranoodle` | Useful CLI tools for OpenTofu, Terraform, and Terragrunt | [dangernoodle-io/terranoodle](https://github.com/dangernoodle-io/terranoodle) | `brew install --cask dangernoodle-io/tap/terranoodle` |
 
 ## Maintenance
